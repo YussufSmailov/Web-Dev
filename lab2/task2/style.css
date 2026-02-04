@@ -1,0 +1,112 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Helvetica;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    gap:40px;
+   
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-right: 200px;
+    border-right:1px solid rgb(47, 40, 40);
+}
+.txt {
+    text-align: center;
+    font-size:32px;
+}
+.login-box{
+    text-align: center;
+    margin-left: 90px;
+    font-size: 20px;
+    width:350px;
+    
+    border: 2px solid white;
+    padding-left: 20px;
+}
+form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+input{
+    height: 35px;
+    
+    margin-bottom: 3px;
+    border:1px solid #dddfe2;
+    border-radius: 10px;
+}
+
+.voiti{
+    height: 35px;
+    border:1px solid #0095f6;
+    border-radius: 10px;
+    background-color: aqua;
+    margin-top: 15px;
+}
+.voiti:hover{
+    background-color: rgb(42, 42, 229);
+}
+.forgot{
+    margin-bottom: 20px;
+    margin-top:20px;
+    color:black;
+    font-size:15px;
+    text-decoration: none;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+.move{
+    margin-top:90px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.facebook{
+    height: 35px;
+    border:1px solid #dddfe2;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    font-size:13px;
+}
+.create{
+    height: 35px;
+    border:1px solid #12689d;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(38, 38, 222);
+    font-size:13px;
+}
+.facebook:hover{
+    background-color: aqua;
+}
+.create:hover{
+    background-color: aqua;
+}
+.logo{
+    margin-left: -100px;
+    margin-top: 50px ;
+}
+
+#grad{
+    font-weight: 800;
+    color: rgb(195, 72, 175);
+}

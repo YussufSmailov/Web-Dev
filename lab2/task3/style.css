@@ -1,0 +1,237 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 2px;
+}
+
+h1{
+    font-family: Arial;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+}
+.text p{
+    font-size: 20px;
+    color:gray;
+    margin-top: 0px;
+}
+.text button{
+    margin-top:20px;
+    height:70px;
+    width:220px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(46, 37, 37);
+    color:white;
+    font-size: 20px;
+}
+.text button:hover{
+    background-color: rgb(89, 89, 108);
+}
+.card{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:100px;
+    margin-top: 30px;
+    
+}
+.card h2{
+    font-size: 45px;
+}
+p.desc{
+    font-size:20px;
+    width:250px;
+    text-align: center;
+}
+
+.digit{
+    font-size: 45px;
+}
+.USD{
+    font-size: 30px;
+}
+
+.dolor{
+    font-size: 20px;
+    font-weight: lighter;
+    color:gray;
+}
+
+.price1{
+    margin-top: 45px;
+}
+.price2{
+    margin-top: 95px;
+}
+.card1, .card2, .card3{
+
+    display: flex;
+    flex-direction: column;
+    
+    width:380px;
+    border: 10px solid gray;
+    border-radius: 20px;
+    padding: 20px 0 0 0;
+    width:500px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.but1, .but2{
+    height: 80px;
+    width:470px;
+    color:white;
+    font-size:30px;
+    border: 2px solid rgb(24, 22, 22);
+  
+    border-radius: 8px;
+    background-color: rgb(64, 61, 61);
+}
+.but1, .but2, .butt{
+    width:90%;
+    
+}
+.but1{
+    background-color: white;
+    color:black;
+}
+.butt button{
+   
+    gap: 10px;
+    height: 80px;
+    width: 180px;
+    margin:10px;
+    margin-top: 0px;
+    border: 2px solid rgb(24, 22, 22);
+    border-radius: 8px;
+    font-size: 30px;
+}
+button.first{
+    background-color:rgb(64, 61, 61);
+    color:white;
+}
+button.second{
+    background-color: white;
+    color:black;
+}
+.card3{
+    border: 10px solid blue;
+}
+
+.hh{
+    color:white;
+    background-color: blue;
+    padding-top: 0px;
+}
+.start{
+    border: 2px solid gray;
+    padding: 4px;
+    border-radius: 15px;
+    margin-top:1px;
+    color:gray;
+    font-size:20px;
+    margin-bottom: 1px;
+}
+
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    min-height: 440px;
+    padding-bottom: 0 20px 20px 20px;
+}
+
+.info{
+    width:90%;
+    margin-top:20px;
+    padding: 0px 20px;
+    padding-left: 40px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.bl{
+    text-align: left;
+    color:blue;
+    margin-left: 15px;
+}
+.cardinf{
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    border-left: 2px solid rgb(197, 195, 195);
+    border-right:2px solid  rgb(197, 195, 195);
+    border-bottom:2px solid  rgb(197, 195, 195);
+    border-radius: 8px;
+    margin-top: 50px;
+    font-size: 15px;
+    
+
+}
+
+.in2{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    grid-template-rows: 400px 400px;
+    padding: 2em;
+    text-align: center;
+    border-radius: 8px;   
+    gap: 2em;
+}
+.item{
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    text-align: left;
+    padding-left: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.name{
+    font-size: 37px;
+    font-weight: bold;
+}
+.opis{
+    font-size: 25px;
+    text-align: left;
+    margin-right: 35px;
+    color:gray;
+}
+.arrow{
+    color:black;
+    font-weight: bold;
+    font-size:20px;
+}
+.addons{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+h1.addons{
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
