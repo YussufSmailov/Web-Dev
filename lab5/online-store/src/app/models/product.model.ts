@@ -8,5 +8,6 @@ export interface Product {
   images: string[];
   link: string;
   likes: number;
+  quantity: number;
   categoryId: number;
 }

@@ -4,6 +4,11 @@ import { ProductService } from './services/product.service';
 import { Category } from './models/category.model';
 import { Product } from './models/product.model';
 import { CommonModule } from '@angular/common';
+import { signal } from '@angular/core';
+interface CartItem{
+  id: number;
+  quantity: number;
+}
 
 @Component({
   selector: 'app-root',
@@ -12,6 +17,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
+
 
 export class AppComponent {
   private productService = inject(ProductService);
@@ -30,4 +36,7 @@ export class AppComponent {
 
     this.products = this.products.filter(p => p.id !== id);
   }
+
+
+
 }

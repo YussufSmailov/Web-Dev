@@ -13,11 +13,12 @@ import { CommonModule } from '@angular/common';
 export class ProductList {
 
   products = input.required<Product[]>();
-
+  addToCart = output<{ id: number, quantity: number }>();
 
   deleteProduct = output<number>();
 
   onDelete(id: number) {
     this.deleteProduct.emit(id);
   }
+
 }

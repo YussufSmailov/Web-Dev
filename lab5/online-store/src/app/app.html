@@ -10,6 +10,7 @@
       </button>
     }
   </nav>
+  <span>Cart {{cartTotal()}}</span>
 </header>
 
 <main class="content">
@@ -21,6 +22,7 @@
   } @else {
     <app-product-list
       [products]="products"
+      (addToCart)="handleAddToCart($event)"
       (deleteProduct)="onDeleteProduct($event)">
     </app-product-list>
   }

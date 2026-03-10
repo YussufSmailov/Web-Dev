@@ -13,11 +13,14 @@ export class ProductCard implements OnInit {
   product = input.required<Product>();
   delete = output<number>();
 
+
   whatsapp: string = '';
   telegram: string = '';
   liked: boolean = false;
+
   allImages: string[] = [];
   currentImage: string = '';
+
 
   ngOnInit() {
 
@@ -55,4 +58,19 @@ export class ProductCard implements OnInit {
       this.delete.emit(this.product().id);
     }
   }
+  increaseQuantity() {
+    if (this.product().quantity === 10) {
+      return;
+    }
+    this.product().quantity += 1;
+  }
+  decreaseQuantity() {
+    if (this.product().quantity === 1) {
+      return;
+    }
+    this.product().quantity -= 1;
+  }
+
+
+
 }

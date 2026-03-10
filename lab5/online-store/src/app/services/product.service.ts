@@ -10,7 +10,8 @@ export class ProductService {
   categories: Category[] = [{
     id: 1,
     name: 'Гаджеты',
-    description: 'Портативные устройства для работы, учёбы и повседневных развлечений.'
+    description: 'Портативные устройства для работы, учёбы и повседневных развлечений.',
+
   },
     {
       id: 2,
@@ -46,7 +47,8 @@ export class ProductService {
       'https://resources.cdn-kaspi.kz/img/m/p/p8d/pa8/64514780.png'],
     link: 'https://kaspi.kz/shop/p/oppo-a78-8-gb-256-gb-zelenyi-112809322/',
     likes: 0,
-    categoryId: 1
+    categoryId: 1,
+    quantity: 0
   },
     {
       id: 101115165,
@@ -62,7 +64,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/h63/h4a/64026164985886.jpg'],
       link: 'https://kaspi.kz/shop/p/gigabyte-geforce-rtx-3060-gaming-oc-12gb-101115165/',
       likes: 0,
-      categoryId: 2
+      categoryId: 2,
+      quantity: 0
     },
     {
       id: 104151899,
@@ -78,7 +81,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/h65/h70/86350817230878.jpg'],
       link: 'https://kaspi.kz/shop/p/deepcool-pf550-r-pf550d-ha0b-eu-550-vt-104151899/',
       likes: 0,
-      categoryId: 2
+      categoryId: 2,
+      quantity: 0
     },
     {
       id: 100956618,
@@ -97,7 +101,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/h50/hea/64119545036830.jpg'],
       link: 'https://kaspi.kz/shop/p/logitech-g102-lightsync-chernyi-100956618/',
       likes: 0,
-      categoryId: 2
+      categoryId: 2,
+      quantity: 0
     },
     {
       id: 102073038,
@@ -117,7 +122,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/hf6/hc8/64217336447006.jpg'],
       link: 'https://kaspi.kz/shop/p/hp-15s-15-6-8-gb-ssd-512-gb-win-10-15s-fq2074ur-4a793ea-102073038/',
       likes: 0,
-      categoryId: 1
+      categoryId: 1,
+      quantity: 0
     },
     {
       id: 140639712,
@@ -138,7 +144,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/p63/p41/46204511.png'],
       link: 'https://kaspi.kz/shop/p/xiaomi-redmi-pad-2-11-djuim-8-gb-256-gb-seryi-140639712/',
       likes: 0,
-      categoryId: 1
+      categoryId: 1,
+      quantity: 0
     },
     {
       id: 115974804,
@@ -153,7 +160,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/pf1/p9f/3940206.png'],
       link: 'https://kaspi.kz/shop/p/mikrofon-k6-chernyi-zheltyi-115974804/',
       likes: 0,
-      categoryId: 4
+      categoryId: 4,
+      quantity: 0
     },
     {
       id: 149777154,
@@ -174,7 +182,8 @@ export class ProductService {
         'assets/images/8_4.jpg'],
       link: 'https://kaspi.kz/shop/p/chehol-dlja-oppo-a78-seryi-149777154/',
       likes: 0,
-      categoryId: 3
+      categoryId: 3,
+      quantity: 0
     },
     {
       id: 117690906,
@@ -216,7 +225,8 @@ export class ProductService {
         'assets/images/9_4.jpg'],
       link: 'https://kaspi.kz/shop/p/nepro100device-man-qz2-50-mm-chernyi-chernyi-117690906/',
       likes: 0,
-      categoryId: 3
+      categoryId: 3,
+      quantity: 0
     },
 
     {
@@ -240,7 +250,8 @@ export class ProductService {
         'assets/images/10_4.jpeg'],
       link: 'https://kaspi.kz/shop/p/nepro100device-man-qz2-50-mm-chernyi-chernyi-117690906/',
       likes: 0,
-      categoryId: 4
+      categoryId: 4,
+      quantity: 0
     },
 
     {
@@ -262,7 +273,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/pf9/p79/20744917.JPG'],
       link: 'https://kaspi.kz/shop/p/xiaomi-redmi-note-14-8-gb-256-gb-chernyi-133574875/',
       likes: 0,
-      categoryId: 1
+      categoryId: 1,
+      quantity: 0
     },
     {
       id: 138202165,
@@ -287,7 +299,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/p7e/p12/37019483.png'],
       link: 'https://kaspi.kz/shop/p/apple-ipad-a16-11-2025-wi-fi-11-djuim-6-gb-128-gb-sinii-138202165/',
       likes: 0,
-      categoryId: 1
+      categoryId: 1,
+      quantity: 0
     },
     {
       id: 109574849,
@@ -309,7 +322,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/hf8/h46/79378839994398.jpg'],
       link: 'https://kaspi.kz/shop/p/corsair-cmk32gx5m2x7200c34-32-gb-109574849/',
       likes: 0,
-      categoryId: 2
+      categoryId: 2,
+      quantity: 0
     },
     {
       id: 146840421,
@@ -328,7 +342,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/p88/p21/68741018.jpg'],
       link: 'https://kaspi.kz/shop/p/ultra-s-ultkb01-darkcombo3-chernyi-146840421/',
       likes: 0,
-      categoryId: 2
+      categoryId: 2,
+      quantity: 0
     },
     {
       id: 144008003,
@@ -363,7 +378,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/p7b/p93/58467819.png'],
       link: 'https://kaspi.kz/shop/p/vneshnii-akkumuljator-a-case-ac-pb001-bl-2-10000-mach-chernyi-144008003/',
       likes: 0,
-      categoryId: 3
+      categoryId: 3,
+      quantity: 0
     },
     {
       id: 124333372,
@@ -377,7 +393,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/hcb/h97/87309386809374.png'],
       link: 'https://kaspi.kz/shop/p/naushniki-apple-airpods-4-belyi-124333372/',
       likes: 0,
-      categoryId: 3
+      categoryId: 3,
+      quantity: 0
     },
     {
       id: 117967868,
@@ -391,7 +408,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/h5f/h67/87088702717982.jpg'],
       link: 'https://kaspi.kz/shop/p/portativnaja-kolonka-jbl-go-4-chernyi-117967868/',
       likes: 0,
-      categoryId: 3
+      categoryId: 3,
+      quantity: 0
     },
     {
       id: 128021595,
@@ -405,7 +423,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/p58/p4b/1075145.png'],
       link: 'https://kaspi.kz/shop/p/ekshn-kamera-dji-osmo-action-5-pro-adventure-combo-128021595/',
       likes: 0,
-      categoryId: 4
+      categoryId: 4,
+      quantity: 0
     },
     {
       id: 113178489,
@@ -419,7 +438,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/h7c/h75/83597027934238.jpg'],
       link: 'https://kaspi.kz/shop/p/naushniki-beats-studio-pro-bezhevyi-113178489/',
       likes: 0,
-      categoryId: 4
+      categoryId: 4,
+      quantity: 0
     },
     {
       id: 106805039,
@@ -441,7 +461,8 @@ export class ProductService {
         'https://resources.cdn-kaspi.kz/img/m/p/h2e/h8f/64357534400542.jpg'],
       link: 'https://kaspi.kz/shop/p/ruchnoi-shtativ-tripod-q02-chernyi-106805039/',
       likes: 0,
-      categoryId: 4
+      categoryId: 4,
+      quantity: 0
     }
 
 
